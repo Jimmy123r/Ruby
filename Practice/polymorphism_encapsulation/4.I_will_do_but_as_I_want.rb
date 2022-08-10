@@ -10,7 +10,7 @@ module Pepita
   end
   
   def self.comer_alpiste!(gramos)
-    @energia += gramos * 15
+    @energia += gramos 
   end  
 
   def self.debil?
