@@ -1,0 +1,15 @@
+class Sobreviviente
+  def initialize
+    @energia = 1000
+  end
+  def atacar!(quien,danio)
+    quien.recibir_danio! danio
+  end
+  def energia
+    @energia
+  end
+
+end
+
+juliana = Sobreviviente.new
+anastasia = Sobreviviente.new
